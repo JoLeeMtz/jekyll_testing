@@ -30,13 +30,7 @@ jekyll new myblog
 cd myblog
 ```
 
-- Build the site and make it available on a local server:
-
-```bash
-bundle exec jekyll serve
-```
-
-- Original application exec (first time executing it):
+- Build the site and make it available on a local server (first time executing it):
 
 ```bash
 bundle exec jekyll serve
