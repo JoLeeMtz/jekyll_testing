@@ -12,21 +12,51 @@ Draft file, not posted.
 
 ### Launching web application
 
-- Original application exec (first time executing it):
+- Install jekyll and bundler gems:
 
+```bash
+gem install jekyll bundler
 ```
+
+- Create a new jekyll site at ./myblog
+
+```bash
+jekyll new myblog
+```
+
+- Change into your new directory:
+
+```bash
+cd myblog
+```
+
+- Build the site and make it available on a local server:
+
+```bash
 bundle exec jekyll serve
 ```
 
-Original application exec:
+- Original application exec (first time executing it):
 
+```bash
+bundle exec jekyll serve
 ```
+
+- Original application exec:
+
+```bash
 jekyll serve
 ```
 
-To see drafts:
+Pass the `--livereload` option to `serve` to automatically refresh the page with each change you make to the source files:
 
+```bash
+bundle exec jekyll serve --livereload
 ```
+
+- To see drafts:
+
+```bash
 jekyll serve --draft
 ```
 
