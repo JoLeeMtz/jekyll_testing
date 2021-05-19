@@ -1,0 +1,7 @@
+
+{{ site.data.person }}<br><hr>
+
+{% for person in site.data.person %}
+    {{ person.name }}, {{ person.occupation }}<br>
+{% endfor %}
+<hr>
